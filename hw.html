@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./hw.css">
+<body>
+    <button onclick="changeaccount(0)">Tài khoản 1</button>
+    <button onclick="changeaccount(1)">Tài khoản 2</button>
+    <div class="account">
+        <h1>Your account</h1>
+        <p class="name">Your account name: <span id="yourname"></span></p>
+        <p class="code">Your code: <span id="yourcode"></span></p>
+        <p class="cash">your cash: <span id="yourcash"></span> VND</p>
+    </div>
+    <button onclick="ruttien()">Rút tiền</button>
+    <button onclick="naptien()">Nạp tiền</button>
+    <button onclick="chuyentien()">Chuyển khoản</button>
+    <script src="./hw.js"></script>
+</body>
+</html>
